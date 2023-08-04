@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Varanasi2">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="   VARANASI" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="70dp"
+        android:text="      The Kashi Vishwanath Temple is one of the most revered Hindu temples to offer prayers to Lord Shiva,
+the presiding deity of the temple.It is located in Varanasi, a city on the banks of the holy river Ganges.
+\n\n
+      Legend has it that,the city of Kashi  was built by Lord Shiva himself in ancient times.
+Over the centuries, the temple was destroyed and rebuilt several times due to invasions and natural disasters.
+Finally, in the 18th century, the temple was rebuilt by the Maratha queen, Ahilyabai Holkar, and it has stood strong ever since.
+\n\n
+      It is said that a visit to this sacred temple and taking a dip in the holy waters can wash away all sins and grant the devotee
+eternal blessings.\n\n
+      The Kashi Vishwanath Temple also played a crucial role in India's struggle for independence.
+During the British rule, it was seen as a symbol of Indian culture and was a meeting point for freedom fighters.
+It was here, Pandit Madan Mohan Malviya gave his clarion call for the Non-Cooperation Movement in 1921."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVar2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="VISIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

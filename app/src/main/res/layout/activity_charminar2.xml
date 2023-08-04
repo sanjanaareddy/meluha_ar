@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Charminar2">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="   CHARMINAR" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="70dp"
+        android:text="      Charminar is depicted as the ‘Arc De Triumph of the East’.
+It is said that Sultan Muhammad Quli Qutub Shah, the ruler of the Qutub Shahi Dynasty,
+constructed this monument as a memory of Queen Bhagwati.\n\n
+      Some of the historians also believe that it is a monument constructed to
+commemorate the victory over a deadly plague. The four minarets signify four directions.
+It is also believed that those four minarets in this monument glorify the four Khalifas of Islam.
+
+\n\n
+      This monument was built in the year 1591.
+It is 48.7 meters tall.
+The top floor has a mosque where people used to sit and pray to God.
+The first floor was used as a school for kids.
+This monument has a secret tunnel that connects with Golconda Fort.
+\n\n
+      The Indo-Islamic architecture of this monument is brilliant.
+In fact, it has become the symbol of tourism in Hyderabad.
+Charminar is an icon of the diverse history of India which continues to attract visitors from all over the world."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnChar2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="VISIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

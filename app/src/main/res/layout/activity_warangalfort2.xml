@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Warangalfort2">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="   WARANGAL FORT" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="70dp"
+        android:text="      The magnificent Warangal Fort was built in the 13th century by the Kakatiya dynasty
+in what is now the state of Telangana, India. The Kakatiya rulers used this fort as their capital and lived here for many years.
+\n\n
+      Many battles were fought to capture the Warangal Fort over the years by various rulers and kingdoms.
+But the fort stood strong in all the attacks and was only conquered by the Muslim rulers after a prolonged siege.
+\n\n
+      Today, the Warangal Fort is a famous tourist destination, attracting visitors from all over the world.
+The fort's ruins are a testament to the ancient Indian architectural skills and beautiful sculptures.
+Warangal Fort is not just an architectural marvel, but it also represents the courage and strength of the Kakatiya dynasty,
+who ruled the Telugu-speaking lands with valor and pride. \n\n      It is a symbol of the glorious past of India,
+which we should all cherish and preserve for future generations."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWar2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="VISIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

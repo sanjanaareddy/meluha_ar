@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "567839592382",
+    "project_id": "quizzed-1f9ef",
+    "storage_bucket": "quizzed-1f9ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567839592382:android:7ed420fbd52cbeb6df73ef",
+        "android_client_info": {
+          "package_name": "com.cheezycode.quizzed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567839592382-uj0bskou1oga4stdgv4s672f98t6cc51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheezycode.quizzed",
+            "certificate_hash": "f3c72a1e0beac659250f6a5b8a672253788bd34c"
+          }
+        },
+        {
+          "client_id": "567839592382-lgtu3rfeanchdrlme16k9nge99tsp2gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXxv-T8JiZQvSFE6UU6ey_h6mfVeb_Lxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567839592382-lgtu3rfeanchdrlme16k9nge99tsp2gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
